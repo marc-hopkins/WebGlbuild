@@ -1,0 +1,14 @@
+﻿body {
+    background-color: darkslategrey;
+    color: black;
+}
+
+    body p {
+        font-weight: bold;
+    }
+
+.snd {
+    width: 200px;
+    height: 200px;
+    background-color: peachpuff;
+}

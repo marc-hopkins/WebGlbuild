@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodeAndWebGL_raw", "NodeAndWebGL_raw\NodeAndWebGL_raw.njsproj", "{CF32DC96-578D-431F-AA06-5EB7A0417A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF32DC96-578D-431F-AA06-5EB7A0417A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF32DC96-578D-431F-AA06-5EB7A0417A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF32DC96-578D-431F-AA06-5EB7A0417A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF32DC96-578D-431F-AA06-5EB7A0417A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
