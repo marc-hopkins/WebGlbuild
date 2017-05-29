@@ -10,7 +10,7 @@ var crstrm = fs.createReadStream;
 http.createServer(function (req, res) {
     //Clear node js console
     process.stdout.write('\x1B[2J\x1B[0f');
-    var page = req.url.match(/\/pages\/.{1,}\.(htm)||(html)||(aspx)/)[0];
+
     const status = res.statusCode;
     var cnttype = (req.headers.accept.split(",")[0]).split("/")[1];
     if (cnttype === "*") {

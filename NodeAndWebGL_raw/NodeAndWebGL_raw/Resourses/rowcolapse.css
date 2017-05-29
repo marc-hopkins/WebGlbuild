@@ -1,0 +1,84 @@
+﻿
+
+body
+{ width: 100%;
+}
+div {
+    width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    border-collapse:collapse;
+    width: 500px;
+}
+    table * {
+        border: none;
+        padding: 0px;
+        vertical-align: middle;
+    }
+
+tr {
+    height: 50px;
+    width: 500px;
+  
+    transition: height 1.5s, padding 1s, color 0.25s, font-size 0.5s;
+}
+
+tr[data-head]{
+    text-align:center;
+    background-color: aqua;
+
+}
+
+    tr[data-head]:hover {
+        background: linear-gradient(rgba(0, 255, 255, 0.5), aqua 40%, rgba(0, 255, 255, 0.5));
+    }
+
+tr:not([data-head]) {
+    height: 0;
+    border: none;
+    margin: 0;
+    padding: 0px;
+    font-size: 0px;
+    color: rgba(255,255,255,0.0);
+}
+
+
+.expand {
+    font-size: 14px !important;
+    height: 50px !important;
+    padding: 1px;
+    color: rgba(0,0,0,1.0) !important;
+    transition: height 1s, padding 0.5s, color 1s, font-size 0.5s;
+}
+
+/* button eye candy*/
+
+.glass {
+    /* background styles */
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: green; /*for compatibility with older browsers*/
+    background-image: linear-gradient(green,lightgreen);
+    /* text styles */
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+    .glass:after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: calc(100% - 4px);
+        height: 50%;
+        background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    }
+    .glass:hover{
+	background: linear-gradient(#073,#0fa);
+}
